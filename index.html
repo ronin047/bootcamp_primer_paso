@@ -8,72 +8,89 @@
 </head>
 
 <body>
-    <!-- les commentaires se font avec "c" + tab -->
-    <h1> BIENVENIDO </h1> <!-- le h1 ne s'utilise qu'une seule fois par page -->
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam harum dolores expedita praesentium quae. Maxime enim repudiandae dignissimos, pariatur ut iste amet magnam, qui eum temporibus voluptate incidunt, iure minima impedit sapiente id illum. Enim repellat tempore aliquid asperiores in soluta ipsam dolore libero animi nisi ab veritatis, rerum quisquam.
-    </p> <!-- paragraphe lorem10 -->
-    <nav>
-        <ul> <!--  unordener list -->
-            <li> UL version  liste avec identation.<!-- list --> <!-- OL : ordener list  -->
-                <ul>
-                    <li> liste 1.1<!-- list --></li>
-                    <li> liste 1.2</li>
-                </ul>
-            </li>
-            <li>OL version liste avec identation
-                <ol>     <!-- ordener list  -->
-                    <li> liste 2.1<!-- list --></li>
-                    <li> liste 2.2</li>
-                </ol>
-            </li>
+<section>
+    <h1 background=blue>Presentacion</h1>
+    <p>con 35 anos de experiencia, he aprendido muchos tipo de comidas, pero tambien con la pasteleria y la comida para diabeticos. </p>
+</section>
 
+<nav>
+        <strong><a href="index.html">Inicio</a></strong>
+        <strong><a href=""></a></strong>
+        <strong><a href="contact.html">Contacte me</a></strong>
+
+</nav>
+
+<hr>
+    <h3> <strong>Mi lista de libros</strong> </h3>
+        <ul>
+            <li><a href="https://www.marclevy.com/marclevy">Marc levy </a>- toutes ces choses que l'on ne sait pas dites</li>
+            <li><a href="https://www.marclevy.com/marclevy/1/20233/livre/MARC-LEVY-GHOST-IN-LOVE"><strong>Marc levy - love ghost</strong></a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Ghost_in_the_Shell_(manga)">Akira</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/Zen_en_el_arte_del_tiro_con_arco">Zen en el arte del tiro con arco</a></li>
+            <li><a href="https://es.wikipedia.org/wiki/2084:_El_fin_del_mundo">2084, el fin del mundo</a></li>
         </ul>
-    </nav>
-    <p><b>photo a partir du fichier asset img</b></p>
-    <img src="./asset/img/code-t.jpeg" alt="image code java" width="500px" height="auto">
+<hr>
+    <h3> <strong>Mi lista de videos</strong> </h3>
+        <ul>
+            <li><a href="https://www.imdb.com/title/tt0112579/?ref_=nv_sr_srsg_0">The Bridges of Madison County</a></li>
+            <li><a href="https://www.imdb.com/title/tt2872732/">Lucy</a></li>
+            <li><a href="https://www.imdb.com/title/tt1677720/?ref_=nv_sr_srsg_0">Ready player one</a></li>
+        </ul>
+<hr>
+<h3> <strong>Mis deportes</strong> </h3>
+    <ul>
+        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/aV7tG8Uj7xQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><b>aikido</b></li>
+        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/p2_oOMxaAyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><b>Wing chun</b></li>
+        <li><iframe width="560" height="315" src="https://www.youtube.com/embed/GmsBFZSib8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>natación</li>
+    </ul>
+<hr>
 
-    <section> 
-        <h1>section cours bootcamp BIT IBERO</h1>
-        <p>...</p>
-        <label for="week">Selecciona una semana:</label>
-        <input type="week" id="week" name="week">
-        <p> Week : echelonnage de semaine</p>
-
-        <input type="time">
-        <p> Time : repere d'heure</p>
-
-        <input type="date">
-        <p> Date : affiche la date avec année</p>
-    </section>
-
-    <h2> sortir vers une video depuis un fichier</h2>
-
-    <h3>video courte avec concept iframe</h3>
-    <iframe width="500" height="320" src="https://www.youtube.com/watch?v=RzsYWHxk-2w"> </iframe>
-
-
-    <h3>video depuis fichier ASSET/VIDEO</h3>
-    <video width="500" height="320" controls src="./asset/video/01 - Ce que vous saurez faire à l'issue de ce cours.mp4">  </video>
-
-    <p>./puis asset/video/nom_de_la_video.mp4 si le fichier est ala racine du fichier asset. le . servira surtout avec angular </p>
-    <p> pour sortir une video depuis le fichier html, mettre ../ puis asset/video/nom_de_la_video.mp4</p>
-    <p> et pour sortir 2 fois faire ../../puis asset/video/nom_de_la_video.mp4, etc en fonction du nombre de dossiers en sortie</p>
-
-
-
+<h3> <strong>Mis especialidades como cocinero y pastelero</strong> </h3>
     <article>
-        <h1>article</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, veritatis?</p>
+        <article>
+            <h2> <img height="100px"  wild="140px" src="asset/img/boeuf-bourguignon.jpeg" alt="boeuf bourguignon">La comida</h2>
+            <p> la comida francesa por mis origenes de borgona en francia, pero tambien arabe, asiatica, colombiana, italiana, espanola, </p>
+        </article>
+
+        <article>
+            <h2><img height="100px"  width="auto" src="asset/img/patisserie 1.jpeg" alt="patisserie">la pasteleria</h2>
+            <p>la pasteleria fue mi primera experiencia culinaria por la actitude de los profesionales, y que me gustaba mucho el dulce..</p>
+        </article>
+
+        <article>
+            <h2><img height="100px"  width="auto" src="asset/img/glacerie.jpeg" alt="La glacerie">el heladeria</h2>
+            <p>la heladeria es el mundo de su enfencia. </p>
+        </article>
+
+        <article>
+            <h2><img height="100px"  width="auto" src="asset/img/vienoiseries.webp" alt="vienoiserie">la panaderia</h2>
+            <p>la bellesa de los croissants y panes de chocolate depertaba los sentidos de los mas jovenes.</p>
+        </article>
+
+        <article>
+            <H2><img height="100px"  width="80px" src="asset/img/chocolate-belga-b_6.jpeg" alt="chocolaterie">la chocolateria</H2>
+            <p>... fue para mi inolvidable por los sabores que puedemos desarollar.</p>
+        </article>
+
+        <article>
+            <h2><img height="100px"  width="auto" src="asset/img/madeleine.jpeg" alt="madeleine">la galleteria</h2>
+            <p>...fue una alegria de descubrir las texturas tan diferentes. Pero la madeleine queda para mi el mejor de las galletas</p>
+        </article>
+
+        <article>
+            <h2><img height="100px"  width="auto" src="asset/img/Confitures-des-recettes-au-gout-du-jour.jpeg" alt="confitures">las mermeladas</h2>
+            <p>los aprendi mas tarde, sobretodo en colombia en donde jugaba con las frutas mezclandolos par crear otros sabores unicas, como la mezcla de las fresas con el lulo.</p>
+        </article>
+
     </article>
+    <hr>
+    <h2 ><b><i>Mi nueva vida... la programacion</b></h2>
+    <img src="asset/img/code-html-sashkin-adobe-stock.jpeg" alt="image code html" width="500px" height="auto">
+    <p>Despues de tantos anos, he descubierto, con amigos, una otra forma de expressarme, la programacion. he descubierto ruby, python, y ahora me enfoco, con B.I.T. institute en el mundo de javascript. </p>
 
-    <aside> ASIDE : todo que no tiene que ver con el contenido</aside>
-
-    <footer>
-        <p> FOOTER : pies de pagina</p>
-
-    </footer>
-
- 
+    <video width="500" height="320" controls src="./asset/video/01 - Ce que vous saurez faire à l'issue de ce cours.mp4">  </video>
+    <aside> Una nueva aventura... empeza
+    </aside>
 </body>
 
 
